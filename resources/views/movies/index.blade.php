@@ -25,7 +25,7 @@
 <style lang="scss" scoped>
     .mycard {
         width: 200px;
-        height: 400px;
+        height: fit-content;
         transition: .8s;
 
         &:hover {
