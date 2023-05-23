@@ -14,8 +14,8 @@ class MovieController extends Controller
     }
     public function homepage()
     {
-        $movies = Movie::Where('id', '>', 0)
-            ->orderBy('vote', 'desc')
+        $movies = Movie::
+            orderBy('vote', 'desc')
             ->limit(4)
             ->get();
         return view('home', compact('movies'));
