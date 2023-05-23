@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('page_title')
+    Lista dei film
+@endsection
+
 @section('content')
     <main>
         <h1>Movies List</h1>
