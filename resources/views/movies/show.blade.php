@@ -4,7 +4,9 @@
     <main>
         <section class="d-flex justify-content-between px-5 mt-5">
             <div class="ps-5">
-                <a href="{{ route('movies.index') }}" class="fw-bold">Torna alla lista dei film</a>
+                <a href="{{ route('movies.index') }}" class="fw-bold"><i class="fa-solid fa-arrow-left me-3"></i>Torna alla
+                    lista
+                    dei film</a>
                 <h1 class="mt-5">{{ $movie->title }}</h1>
                 <p>Titolo originale: {{ $movie->original_title }}</p>
                 <p>Nazione: {{ $movie->nationality }}</p>
