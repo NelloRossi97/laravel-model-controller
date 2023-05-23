@@ -14,7 +14,7 @@
             </ul>
         </div>
         <div class="search">
-            <input type="search" placeholder="Cerca film...">
+            <input type="search" placeholder="Cerca film..." class="me-3">
             <button>Cerca</button>
         </div>
     </nav>
@@ -30,5 +30,22 @@
         color: white;
 
         &:hover {}
+    }
+
+    input {
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid gray;
+    }
+
+    button {
+        background: transparent;
+        color: white;
+        border-radius: 10px;
+        border: none;
+
+        &:hover {
+            background: gray;
+        }
     }
 </style>

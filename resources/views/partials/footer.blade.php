@@ -1,4 +1,4 @@
-<footer class="d-flex justify-content-center mt-5 fixed-bottom">
+<footer class="d-flex justify-content-center align-items-center mt-5 fixed-bottom">
     <ul class="d-flex list-unstyled gap-5">
         <li>
             <a href="/">Termini di utilizzo e informativa sulla privacy</a>
@@ -19,5 +19,8 @@
 </footer>
 
 <style lang="scss" scoped>
-
+    footer {
+        height: 80px;
+        background-color: #00050d;
+    }
 </style>
